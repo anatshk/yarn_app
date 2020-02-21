@@ -18,3 +18,5 @@ class MainFragment: Fragment() {
         return super.onCreateView(inflater, container, savedInstanceState)
     }
 }
+
+// TODO: create separate fragments for all layouts?

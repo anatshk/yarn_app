@@ -49,5 +49,7 @@
 <!--                style="?android:attr/borderlessButtonStyle"/>-->
         </LinearLayout>
 
+<!--        TODO: add a frame here for fragments here see #4, slide 120 -->
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,7 @@
 package com.android.yarn_app
 
+import androidx.annotation.DrawableRes
+
 // The YarnItem class - to be used in creating the new item screen and the item details screen
 
 // The data describing the item
@@ -11,7 +13,8 @@ data class YarnItemData(
     val lengthMeters: Int,  // TODO: in the future, support yards?
     val weightGrams: Int,  // TODO: in the future, support oz?
     val mainMaterial: Material,  // TODO: in the future, use MaterialCombination
-    val price: Float  // price per this item (code, length, weight)
+    val price: Float,  // price per this item (code, length, weight)
+    @DrawableRes val imageId: Int
 )
 
 // TODO: validations of item types and values when getting them from screen
