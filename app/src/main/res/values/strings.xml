@@ -30,4 +30,7 @@
     <string name="yarn_price_label">Price</string>
     <string name="item_price_hint">price in NIS</string>
     <string name="yarn_image_description">yarn image</string>
+    <string name="placeholder_yarn_item_title">placeholder detail title</string>
+    <string name="placeholder_yarn_item_content">placeholder detail content</string>
+    <string name="placeholder_hint">placeholder hint</string>
 </resources>

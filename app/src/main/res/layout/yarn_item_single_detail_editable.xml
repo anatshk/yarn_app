@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/yarn_item_single_detail_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="@dimen/item_text_size"
+        android:text="@string/placeholder_yarn_item_title"/>
+
+<!--    TODO: inputType needs to change according to the relevant details -->
+    <EditText
+        android:id="@+id/yarn_item_single_detail_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="@dimen/item_text_size"
+        android:text="@string/blank"
+        android:importantForAutofill="no"
+        android:hint="@string/placeholder_hint"/>
+
+</LinearLayout>

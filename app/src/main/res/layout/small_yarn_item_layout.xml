@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/yarn_item_image"
+        android:layout_width="@dimen/small_item_image_shape"
+        android:layout_height="match_parent"
+        android:src="@drawable/yarn_demo"
+        android:contentDescription="@string/yarn_image_description"
+        android:adjustViewBounds="false"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/yarn_item_single_detail" />
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/yarn_item_single_detail" />
+
+    </LinearLayout>
+
+</LinearLayout>

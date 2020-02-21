@@ -253,49 +253,23 @@
 
         </LinearLayout>
 
-        <LinearLayout
+        <ImageView
+            android:id="@+id/yarn_item_image"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/yarn_demo"
+            android:contentDescription="@string/yarn_image_description"
+            android:adjustViewBounds="false"/>
 
-            <ImageView
-                android:id="@+id/yarn_item_image"
-                android:layout_width="0dp"
-                android:layout_height="@dimen/yarn_image_height"
-                android:layout_weight="1"
-                android:src="@drawable/yarn_demo"
-                android:contentDescription="@string/yarn_image_description"
-                android:adjustViewBounds="false"/>
-
-        </LinearLayout>
 
         <!--        TODO: end of area to be automated from YarnItemData -->
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <!--        include the amount UI -->
+        <include
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/minus_button_label"
-                android:textSize="@dimen/amount_text_size"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/placeholder_zero"
-                android:textSize="@dimen/amount_text_size"/>
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/plus_button_label"
-                android:textSize="@dimen/amount_text_size"/>
-
-        </LinearLayout>
+            layout="@layout/amount_ui_object_layout" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -308,12 +282,14 @@
                 android:layout_height="wrap_content"
                 android:text="@string/save_button_label"
                 android:textSize="@dimen/item_text_size"/>
+<!--                style="?android:attr/borderlessButtonStyle"/>-->
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/cancel_button_label"
                 android:textSize="@dimen/item_text_size"/>
+<!--                style="?android:attr/borderlessButtonStyle"/>-->
 
         </LinearLayout>
 
