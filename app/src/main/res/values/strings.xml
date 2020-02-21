@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">yarn_app</string>
+    <string name="yarn_main_title">Yarn</string>
+    <string name="yarn_new_button">Add New Item</string>
+    <string name="yarn_find_button">Find Existing Item</string>
+    <string name="yarn_orders_button">Go To Orders Screen</string>
+    <string name="app_title">YarnApp</string>
+    <string name="toys_main_title">Toys</string>
+    <string name="yarn_item_title">Yarn Item</string>
+    <string name="blank">""</string>
+    <string name="yarn_item_manufacturer_label">Manufacturer:</string>
+    <string name="yarn_item_barcode_label">Item Barcode:</string>
 </resources>

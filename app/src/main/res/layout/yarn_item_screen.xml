@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="@dimen/layout_width"
+        android:layout_height="@dimen/layout_height"
+        android:layout_marginStart="@dimen/layout_margin_start"
+        android:layout_marginTop="@dimen/layout_margin_top"
+        android:layout_marginEnd="@dimen/layout_margin_end"
+        android:layout_marginBottom="@dimen/layout_margin_bottom"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/yarn_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/title_size"
+            android:gravity="center"
+            android:textSize="@dimen/title_text_size"
+            android:text="@string/yarn_item_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yarn_item_manufacturer_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/item_text_size"
+                android:text="@string/yarn_item_manufacturer_label"/>
+
+            <EditText
+                android:id="@+id/yarn_item_manufacturer_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/item_text_size"
+                android:text="@string/blank"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yarn_item_barcode_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/item_text_size"
+                android:text="@string/yarn_item_barcode_label"/>
+
+            <EditText
+                android:id="@+id/yarn_item_barcode_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textSize="@dimen/item_text_size"
+                android:text="@string/blank"
+                android:importantForAutofill="no" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
