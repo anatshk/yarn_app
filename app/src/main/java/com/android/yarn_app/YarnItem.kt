@@ -14,6 +14,7 @@ data class YarnItemData(
     val price: Float  // price per this item (code, length, weight)
 )
 
+// TODO: validations of item types and values when getting them from screen
 
 // A class that contains the data of an item along with its current amount and methods to change it
 class YarnItem(private val itemData: YarnItemData) {

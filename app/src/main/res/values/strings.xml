@@ -10,4 +10,24 @@
     <string name="blank">""</string>
     <string name="yarn_item_manufacturer_label">Manufacturer:</string>
     <string name="yarn_item_barcode_label">Item Barcode:</string>
+    <string name="item_manufacturer_hint">item manufacturer</string>
+    <string name="item_barcode_hint">item barcode from label</string>
+    <string name="yarn_color_number_label">Color Number</string>
+    <string name="item_color_number_hint">color number from label</string>
+    <string name="yarn_color_name_label">Color</string>
+    <string name="item_color_name_hint">general color (red / green / blue / etc)</string>
+    <string name="minus_button_label">-</string>
+    <string name="plus_button_label">+</string>
+    <string name="placeholder_zero">0</string>
+    <string name="yarn_length_label">Length (m)</string>
+    <string name="item_length_hint">length of item in meters</string>
+    <string name="save_button_label">Save</string>
+    <string name="cancel_button_label">Cancel</string>
+    <string name="yarn_weight_label">Weight (g)</string>
+    <string name="item_weight_hint">item weight in grams</string>
+    <string name="yarn_materials_label">Main Material</string>
+    <string name="item_materials_hint">main material of item (cotton, wool, etc)</string>
+    <string name="yarn_price_label">Price</string>
+    <string name="item_price_hint">price in NIS</string>
+    <string name="yarn_image_description">yarn image</string>
 </resources>
